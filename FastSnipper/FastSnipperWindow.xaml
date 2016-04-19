@@ -1,0 +1,10 @@
+﻿<Window x:Name="FastSnipper" x:Class="FastSnipper.FastSnipperWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FastSnipper"
+        mc:Ignorable="d"
+        Title="FastSnipper" ResizeMode="NoResize" ShowInTaskbar="False" WindowState="Maximized" MouseDown="Window_MouseDown" MouseUp="Window_MouseUp" AllowsTransparency="True" WindowStyle="None" MouseMove="Window_MouseMove" Background="#3FFFFFFF" Left="0" Loaded="FastSnipper_Loaded" Closed="FastSnipper_Closed">
+    <Canvas x:Name="RectCanvas" Margin="0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+</Window>
