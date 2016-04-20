@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 
 namespace FastSnipper
 {
@@ -13,5 +7,7 @@ namespace FastSnipper
     /// </summary>
     public partial class App : Application
     {
+        //TODO: allow only one instance
+        //TODO: switch to active instance if user wants to open another one
     }
 }
