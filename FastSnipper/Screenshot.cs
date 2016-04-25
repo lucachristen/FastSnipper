@@ -31,7 +31,7 @@ namespace FastSnipper
             get { return this.height; }
             set
             {
-                if (value < 0) throw new ArgumentException(nameof(this.height) + " must be greater than or equal to zero");
+                if (value < 0) throw new ArgumentException(nameof(this.Height) + " must be greater than or equal to zero");
                 this.height = value;
             }
         }

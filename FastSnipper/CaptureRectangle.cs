@@ -68,7 +68,7 @@ namespace FastSnipper
         public int    HeightInPixel => this.GetPixel(this.Height, this.DpiY);
 
         public Point UpperLeftCorner        => this.GetUpperLeftCorner(this.StartPosition, this.EndPosition);
-        public Point UpperLeftCornerInPixel => this.GetUpperLeftCorner(this.StartPosition, this.EndPosition);
+        public Point UpperLeftCornerInPixel => this.GetPointInPixel(this.GetUpperLeftCorner(this.StartPosition, this.EndPosition));
 
         public Canvas Canvas => this.canvas; 
 
